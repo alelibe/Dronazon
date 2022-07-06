@@ -1,0 +1,108 @@
+package com.example.grpc;
+
+message EntryMessage{
+  required int32 id = 1;
+  required int32 porta = 2;
+
+  message Posizione{
+    required int32 x = 1;
+    required int32 y = 2;
+  }
+
+  required Posizione position = 3;
+}
+
+message ResponseEntryMessage{
+  required int32 id = 1; //id del mittente
+  required bool master = 2;
+}
+
+
+message PingHello{
+  required string hello = 1;
+}
+
+message Ack{
+  required string helloTo = 1;
+}
+
+message Election{
+  required string type = 1;
+  required int32 battery = 2;
+  required int32 id = 3;
+}
+
+
+message Elected{
+  required string type = 1;
+  required int32 id = 2;
+
+  message Posizione{
+    required int32 x = 1;
+    required int32 y = 2;
+  }
+
+  message InfoNetwork{
+    required int32 id = 1;
+    required int32 porta = 2;
+    required int32 battery = 3;
+    required Posizione position = 4;
+  }
+
+  repeated InfoNetwork infoDrone = 3;
+}
+
+message Delivery{
+  message PickUpPoint{
+    required int32 x = 1;
+    required int32 y = 2;
+  }
+
+  message DeliveryPoint{
+    required int32 x = 1;
+    required int32 y = 2;
+  }
+
+  required PickUpPoint pickup = 1;
+  required DeliveryPoint delivery = 2;
+
+}
+
+message StatDelivery{
+  required int64 timestamp = 1;
+
+  message Posizione{
+    required int32 x = 1;
+    required int32 y = 2;
+  }
+
+  message Average{
+    required double misura = 1;
+  }
+
+  repeated Average PollutionAverage = 2;
+
+  required Posizione position = 3;
+
+  required double kmPickUp = 4;
+  required double kmDelivery = 5;
+  required int32 battery = 6;
+  required int32 id = 7;
+}
+
+
+service ProtocolMessageService{
+
+  rpc newEntry(EntryMessage) returns (ResponseEntryMessage);
+
+  rpc ping(PingHello) returns (Ack);
+
+  rpc election(Election) returns (Election);
+
+  rpc elected(Elected) returns (Elected);
+
+  rpc makeDelivery(Delivery) returns (Delivery);
+
+  rpc statDelivery(StatDelivery) returns (StatDelivery);
+
+}

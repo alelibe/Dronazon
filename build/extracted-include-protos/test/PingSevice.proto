@@ -1,0 +1,14 @@
+package com.example.grpc;
+
+message PingHello{
+  required string hello = 1;
+}
+
+message Ack{
+  required string helloTo = 1;
+}
+
+service PingServiceService{
+
+  rpc ping(PingHello) returns (Ack);
+}

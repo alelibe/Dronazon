@@ -1,0 +1,175 @@
+ServerAmministratore/StartSever.java
+ ServerAmministratore.StartSever
+Dronazon/TestDronazon.java
+ Dronazon.TestDronazon
+ Dronazon.TestDronazon$1
+Drone/DroneExit.java
+ Drone.DroneExit
+Drone/grpcBroadcast.java
+ Drone.grpcBroadcast
+ Drone.grpcBroadcast$1
+Drone/SimulatorePM10/Simulator.java
+ Drone.SimulatorePM10.Simulator
+Drone/Master/GlobalStat.java
+ Drone.Master.GlobalStat
+Drone/Master/SubMaster.java
+ Drone.Master.SubMaster
+ Drone.Master.SubMaster$1
+ServerAmministratore/services/DroneService.java
+ ServerAmministratore.services.DroneService
+Drone/ViewDroneNetwork.java
+ Drone.ViewDroneNetwork
+ServerAmministratore/Statistics.java
+ ServerAmministratore.Statistics
+Drone/NetworkServiceImpl.java
+ Drone.NetworkServiceImpl
+ Drone.NetworkServiceImpl$1
+ Drone.NetworkServiceImpl$2
+ Drone.NetworkServiceImpl$3
+ Drone.NetworkServiceImpl$4
+com/example/grpc/PingMessageServiceGrpc.java
+ com.example.grpc.PingMessageServiceGrpc
+ com.example.grpc.PingMessageServiceGrpc$1
+ com.example.grpc.PingMessageServiceGrpc$MethodHandlers
+ com.example.grpc.PingMessageServiceGrpc$PingMessageServiceBaseDescriptorSupplier
+ com.example.grpc.PingMessageServiceGrpc$PingMessageServiceBlockingStub
+ com.example.grpc.PingMessageServiceGrpc$PingMessageServiceFileDescriptorSupplier
+ com.example.grpc.PingMessageServiceGrpc$PingMessageServiceFutureStub
+ com.example.grpc.PingMessageServiceGrpc$PingMessageServiceImplBase
+ com.example.grpc.PingMessageServiceGrpc$PingMessageServiceMethodDescriptorSupplier
+ com.example.grpc.PingMessageServiceGrpc$PingMessageServiceStub
+Drone/grpcPing.java
+ Drone.grpcPing
+ Drone.grpcPing$1
+Drone/Drone.java
+ Drone.Drone
+Drone/Master/InfoMaster.java
+ Drone.Master.InfoMaster
+Drone/Master/workerGlobalStat.java
+ Drone.Master.workerGlobalStat
+ServerAmministratore/InfoDrone.java
+ ServerAmministratore.InfoDrone
+Drone/startElection.java
+ Drone.startElection
+ Drone.startElection$1
+ServerAmministratore/StatList.java
+ ServerAmministratore.StatList
+Drone/printStat.java
+ Drone.printStat
+Drone/SimulatorePM10/Measurement.java
+ Drone.SimulatorePM10.Measurement
+com/example/grpc/PingMessage.java
+ com.example.grpc.PingMessage
+ com.example.grpc.PingMessage$1
+ com.example.grpc.PingMessage$Ack
+ com.example.grpc.PingMessage$Ack$1
+ com.example.grpc.PingMessage$Ack$Builder
+ com.example.grpc.PingMessage$AckOrBuilder
+ com.example.grpc.PingMessage$PingHello
+ com.example.grpc.PingMessage$PingHello$1
+ com.example.grpc.PingMessage$PingHello$Builder
+ com.example.grpc.PingMessage$PingHelloOrBuilder
+Drone/Master/InfoMasterElem.java
+ Drone.Master.InfoMasterElem
+Dronazon/Ordine.java
+ Dronazon.Ordine
+Drone/SimulatorePM10/BufferImpl.java
+ Drone.SimulatorePM10.BufferImpl
+Drone/grpcServerNetwork.java
+ Drone.grpcServerNetwork
+ServerAmministratore/DroneListElement.java
+ ServerAmministratore.DroneListElement
+Drone/SimulatorePM10/PM10Simulator.java
+ Drone.SimulatorePM10.PM10Simulator
+ServerAmministratore/services/StatisticService.java
+ ServerAmministratore.services.StatisticService
+Drone/Master/OrderConsumer.java
+ Drone.Master.OrderConsumer
+ Drone.Master.OrderConsumer$1
+ Drone.Master.OrderConsumer$2
+com/example/grpc/ProtocolMessageServiceGrpc.java
+ com.example.grpc.ProtocolMessageServiceGrpc
+ com.example.grpc.ProtocolMessageServiceGrpc$1
+ com.example.grpc.ProtocolMessageServiceGrpc$MethodHandlers
+ com.example.grpc.ProtocolMessageServiceGrpc$ProtocolMessageServiceBaseDescriptorSupplier
+ com.example.grpc.ProtocolMessageServiceGrpc$ProtocolMessageServiceBlockingStub
+ com.example.grpc.ProtocolMessageServiceGrpc$ProtocolMessageServiceFileDescriptorSupplier
+ com.example.grpc.ProtocolMessageServiceGrpc$ProtocolMessageServiceFutureStub
+ com.example.grpc.ProtocolMessageServiceGrpc$ProtocolMessageServiceImplBase
+ com.example.grpc.ProtocolMessageServiceGrpc$ProtocolMessageServiceMethodDescriptorSupplier
+ com.example.grpc.ProtocolMessageServiceGrpc$ProtocolMessageServiceStub
+com/example/grpc/ProtocolMessage.java
+ com.example.grpc.ProtocolMessage
+ com.example.grpc.ProtocolMessage$1
+ com.example.grpc.ProtocolMessage$Ack
+ com.example.grpc.ProtocolMessage$Ack$1
+ com.example.grpc.ProtocolMessage$Ack$Builder
+ com.example.grpc.ProtocolMessage$AckOrBuilder
+ com.example.grpc.ProtocolMessage$Delivery
+ com.example.grpc.ProtocolMessage$Delivery$1
+ com.example.grpc.ProtocolMessage$Delivery$Builder
+ com.example.grpc.ProtocolMessage$Delivery$DeliveryPoint
+ com.example.grpc.ProtocolMessage$Delivery$DeliveryPoint$1
+ com.example.grpc.ProtocolMessage$Delivery$DeliveryPoint$Builder
+ com.example.grpc.ProtocolMessage$Delivery$DeliveryPointOrBuilder
+ com.example.grpc.ProtocolMessage$Delivery$PickUpPoint
+ com.example.grpc.ProtocolMessage$Delivery$PickUpPoint$1
+ com.example.grpc.ProtocolMessage$Delivery$PickUpPoint$Builder
+ com.example.grpc.ProtocolMessage$Delivery$PickUpPointOrBuilder
+ com.example.grpc.ProtocolMessage$DeliveryOrBuilder
+ com.example.grpc.ProtocolMessage$Elected
+ com.example.grpc.ProtocolMessage$Elected$1
+ com.example.grpc.ProtocolMessage$Elected$Builder
+ com.example.grpc.ProtocolMessage$Elected$InfoNetwork
+ com.example.grpc.ProtocolMessage$Elected$InfoNetwork$1
+ com.example.grpc.ProtocolMessage$Elected$InfoNetwork$Builder
+ com.example.grpc.ProtocolMessage$Elected$InfoNetworkOrBuilder
+ com.example.grpc.ProtocolMessage$Elected$Posizione
+ com.example.grpc.ProtocolMessage$Elected$Posizione$1
+ com.example.grpc.ProtocolMessage$Elected$Posizione$Builder
+ com.example.grpc.ProtocolMessage$Elected$PosizioneOrBuilder
+ com.example.grpc.ProtocolMessage$ElectedOrBuilder
+ com.example.grpc.ProtocolMessage$Election
+ com.example.grpc.ProtocolMessage$Election$1
+ com.example.grpc.ProtocolMessage$Election$Builder
+ com.example.grpc.ProtocolMessage$ElectionOrBuilder
+ com.example.grpc.ProtocolMessage$EntryMessage
+ com.example.grpc.ProtocolMessage$EntryMessage$1
+ com.example.grpc.ProtocolMessage$EntryMessage$Builder
+ com.example.grpc.ProtocolMessage$EntryMessage$Posizione
+ com.example.grpc.ProtocolMessage$EntryMessage$Posizione$1
+ com.example.grpc.ProtocolMessage$EntryMessage$Posizione$Builder
+ com.example.grpc.ProtocolMessage$EntryMessage$PosizioneOrBuilder
+ com.example.grpc.ProtocolMessage$EntryMessageOrBuilder
+ com.example.grpc.ProtocolMessage$PingHello
+ com.example.grpc.ProtocolMessage$PingHello$1
+ com.example.grpc.ProtocolMessage$PingHello$Builder
+ com.example.grpc.ProtocolMessage$PingHelloOrBuilder
+ com.example.grpc.ProtocolMessage$ResponseEntryMessage
+ com.example.grpc.ProtocolMessage$ResponseEntryMessage$1
+ com.example.grpc.ProtocolMessage$ResponseEntryMessage$Builder
+ com.example.grpc.ProtocolMessage$ResponseEntryMessageOrBuilder
+ com.example.grpc.ProtocolMessage$StatDelivery
+ com.example.grpc.ProtocolMessage$StatDelivery$1
+ com.example.grpc.ProtocolMessage$StatDelivery$Average
+ com.example.grpc.ProtocolMessage$StatDelivery$Average$1
+ com.example.grpc.ProtocolMessage$StatDelivery$Average$Builder
+ com.example.grpc.ProtocolMessage$StatDelivery$AverageOrBuilder
+ com.example.grpc.ProtocolMessage$StatDelivery$Builder
+ com.example.grpc.ProtocolMessage$StatDelivery$Posizione
+ com.example.grpc.ProtocolMessage$StatDelivery$Posizione$1
+ com.example.grpc.ProtocolMessage$StatDelivery$Posizione$Builder
+ com.example.grpc.ProtocolMessage$StatDelivery$PosizioneOrBuilder
+ com.example.grpc.ProtocolMessage$StatDeliveryOrBuilder
+Drone/SimulatorePM10/Buffer.java
+ Drone.SimulatorePM10.Buffer
+Drone/Master/QueueOrdini.java
+ Drone.Master.QueueOrdini
+ClientAmministratore/ClientAmm.java
+ ClientAmministratore.ClientAmm
+ ClientAmministratore.ClientAmm$1
+Dronazon/Dronazon.java
+ Dronazon.Dronazon
+ Dronazon.Dronazon$1
+ServerAmministratore/DroneList.java
+ ServerAmministratore.DroneList
