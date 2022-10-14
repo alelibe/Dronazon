@@ -1,20 +1,11 @@
-# Project Setup
+# Dronazon
 
-* You can import the project directly from a *Version Control System*, by providing the following URL: 
-TODO
+<img src="/Images/unimi_logo.jpg" alt="LOGO" width="100" align="right"/>
 
-<img src = './assets/img_1.png'>
-
-* Otherwise, take care to import the project as a Gradle Project
-
-* If required, trust the project and accept the Gradle auto-import
-
-* Wait until the Gradle indexing process ends (it may take a few seconds)
+- **Autori:** Alessia Libertucci
+- **Corso:** Distributed and Pervasive Systems (A.A. 2020/2021) 
 
 
 
-## ENJOY THE PROJECT!
-
-<img src = './assets/meme.PNG' width="350" height="500">
 
 
